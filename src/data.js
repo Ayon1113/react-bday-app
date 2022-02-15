@@ -2,7 +2,7 @@ export default [
   {
     id: 1,
     name: 'Bertie Yates',
-    age: 29,
+    age: 1995,
     month: "January",
     date: 14,
     image:
@@ -11,7 +11,7 @@ export default [
   {
     id: 2,
     name: 'Hester Hogan',
-    age: 32,
+    age: 1996,
     month: "January",
     date: 3, 
     image:
@@ -20,7 +20,7 @@ export default [
   {
     id: 3,
     name: 'Larry Little',
-    age: 36,
+    age: 1992,
     month: "April",
     date: 1,
     image:
@@ -29,7 +29,7 @@ export default [
   {
     id: 4,
     name: 'Sean Walsh',
-    age: 34,
+    age: 1990,
     month: "December",
     date: 25,
     image:
@@ -38,10 +38,19 @@ export default [
   {
     id: 5,
     name: 'Lola Gardner',
-    age: 29,
+    age: 1995,
     month: "July",
     date: 15,
     image:
       'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
+  },
+  {
+    id: 7,
+    name: 'Mike Rodriguez',
+    age: 1993,
+    month: "February",
+    date: 3,
+    image:
+      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg',
   },
 ];
