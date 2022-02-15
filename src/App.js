@@ -3,10 +3,12 @@ import './App.css';
 import data from './data';
 import ListComponent from './components/ListComponent'
 import MonthDropDown from './components/MonthDropDown'
+import EmailGreeting from './components/EmailGreeting';
 
 
 function App() {
   const currentMonth = new Date();
+  let currentYear = currentMonth.getFullYear();
   const [bdays, setBdays] = useState(0);
   const [month, setMonth] = useState(currentMonth.toLocaleString('default', { month: 'long' }));
 

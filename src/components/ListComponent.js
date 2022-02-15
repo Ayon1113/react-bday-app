@@ -1,4 +1,6 @@
 function ListComponent({ data, setMonthValue, setBdays }) {
+  let currentDate = new Date();
+  let currentYear = currentDate.getFullYear()
   if(setMonthValue) {
     return (
       <>
@@ -11,7 +13,10 @@ function ListComponent({ data, setMonthValue, setBdays }) {
             return (
               <>
               <div>{person.name}</div>
-              <div>{2022-person.age}</div>
+              <div>{currentYear-person.age}</div>
+              <img src={person.image} width="200"/>
+              {person.email ? <a href={`mailto:${person.email}`}>Send birthday greeting</a> : ""}
+              
               </>
             )
           })}
